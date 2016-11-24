@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>零壹众创-服务项目</title>
+<link rel="stylesheet" type="text/css" href="style/common.css">
+<link rel="stylesheet" type="text/css" href="style/items.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+<script src="js/jquery.min.js"></script>
+<script>
+$(function () {
+	var navLi=$(".menu .nav li");
+	navLi.mouseover(function () {
+		$(this).find("a").addClass("current");
+		$(this).find(".box").stop().show();
+	})
+	navLi.mouseleave(function(){
+		$(this).find("a").removeClass("current");
+		$(this).find(".box").stop().hide();
+	})
+})
+</script>
+</head>
+
+<body>
+<!--header-->
+<div class="header">
+	<div class="logo"><img src="images/index/logo.png" /></div>
+    <div class="menu">
+    	<ul class="nav">
+        	<li><a href="#">网站首页</a></li>
+            <li><a href="#">零壹动态</a></li>
+            <li><a href="#" class="active">服务项目</a>
+            	<div class="box">
+                	<a href="#">Android开发</a>
+                    <a href="#">IOS开发</a>
+                    <a href="#">网站建设</a>
+                    <a href="#">IT人才培养</a>
+                </div>
+            </li>
+            <li><a href="#">成功案例</a>
+            	<div class="box moveleft">
+                	<a href="#">Android开发</a>
+                    <a href="#">IOS开发</a>
+                    <a href="#">网站建设</a>
+                    <a href="#">IT人才培养</a>
+                </div>
+            </li>
+            <li><a href="#">人才合作</a>
+            	<div class="box moveleft2">
+                	<a href="#">Android开发</a>
+                    <a href="#">IOS开发</a>
+                    <a href="#">网站建设</a>
+                    <a href="#">IT人才培养</a>
+                </div>
+            </li>
+            <li><a href="#">关于公司</a>
+            	<div class="box moveleft3">
+                	<a href="#">Android开发</a>
+                    <a href="#">IOS开发</a>
+                    <a href="#">网站建设</a>
+                    <a href="#">IT人才培养</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="contact_icon">
+    	<a href="#"><span><i class="fa fa-weibo"></i></span></a>
+        <a href="#"><span><i class="fa fa-weixin"></i></span></a>
+        <a href="#"><span class="nomargin"><i class="fa fa-phone"></i></span></a>
+    </div>
+</div>
+<div class="clearfix"></div>
+<!--banner-->
+<section class="banner">
+	<div class="slogan">
+        <img src="images/items/wenzi.png"/>
+        <img src="images/items/smallwz.png"/>
+        <!--
+        <p>ADHERE TO THE DESIGN AS THE CORE</p>
+        <p>坚持以设计为核心<br/>并始终致力于此</p>
+        -->
+    </div>
+</section>
+<div class="clearfix"></div>
+<!--item_content-->
+<section class="item_content" >
+	<div class="left">
+    	<div class="title">服务项目</div>
+        <ul>
+        	<li><a href="#">Android开发</a></li>
+            <li><a href="#">IOS开发</a></li>
+            <li><a href="#">网站建设</a></li>
+            <li><a href="#">IT人才培养</a></li>
+        </ul>
+    </div>
+    <div class="right">
+    	<div class="title">
+        	<div class="left">Android开发</div>
+            <div class="right_nav">首页 > 产品中心 > 时令资讯</div>
+        </div>
+        <div class="content">
+        	<p> 现代农业发展不断完善，温室大棚起到了至关重要的作用。如今我们经过农田，时常能见到一个个温室大棚，平时我们生活中吃的蔬果很多也种植于温室大棚之中。由此可见温室大棚对于现代农业的重要性，所以我们更应该着重考虑日光温室大棚建设过程中需要注意的事项，这样有利于温室大棚培育出更优质的农作物。下面小编就来介绍一下日光温室大棚建设需要注意的事项。</p>
+            <p>1、建棚时期一定不能选择在雨季，这样不利于日光温室大棚建设过程中保持一定的稳定性，也不利于温室大棚整体总系统的调控，并且在雨季建棚会耗费大量的人力物力，潮湿的环境也会产生许多霉菌，不利于温室大棚更优质地培育良种。所以，日光温室大棚建设一定要避开雨季。</p>
+            <p>2、日光温室大棚建设一定不能选择在沙质土壤中。因为沙质土壤土质较为稀疏，土壤含肥量低，并且碱性较强，透气性较强，导致土壤水分蒸发快，不利于土壤保持充分的湿度，这一点非常不利于农作物的生长。沙质土壤也无法起到保肥的作用，因为通透性较大，土壤肥力挥释过快，不利于农作物充分吸收，使得农作物无法快速优质成长，这对于农业工作者来说，解决方法较困难，浪费肥力较多，不是长期循环发展的最优选择，所以温室大棚不要建立在沙质土壤上。</p>
+        </div>
+    </div>
+</section>
+<div class="clearfix"></div>
+<!-- footer -->
+<div class="footer">
+    <div class="Project_list">
+        <div class="left">
+            <dl>
+                <dt>企业新闻</dt>
+                <dd><a href="#">公司新闻</a></dd>
+                <dd><a href="#">产品新闻</a></dd>
+                <dd><a href="#">行业动态</a></dd>
+            </dl>
+            <dl>
+                <dt>作品展示</dt>
+                <dd><a href="#">APP开发</a></dd>
+                <dd><a href="#">网站建设</a></dd>
+                <dd><a href="#">微信搭建</a></dd>
+            </dl>
+            <dl>
+                <dt>服务项目</dt>
+                <dd><a href="#">Android开发</a></dd>
+                <dd><a href="#">IOS开发</a></dd>
+                <dd><a href="#">网站建设</a></dd>
+            </dl>
+            <dl>
+                <dt>关于我们</dt>
+                <dd><a href="#">公司简介</a></dd>
+                <dd><a href="#">旗下品牌</a></dd>
+                <dd><a href="#">联系我们</a></dd>
+            </dl>
+        </div>
+        <div class="right">
+        	<dl>
+                <dt>二维码</dt>
+                <dd><img src="images/index/ewm.jpg" width="95" height="95"/></dd>
+            </dl>
+        </div>
+    
+    </div>  
+    <div class="friendlink">
+    	<div class="content">
+        	<span class="c_line"></span>
+            <p>友情链接</p>
+            <div class="linklist">
+                <a href="#" target="_blank">链接一</a>
+                <a href="#" target="_blank">链接二</a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+    	<div class="content">Copyright &copy; 2016 <a href="www.wh01zc.com">www.wh01zc.com</a> All Rights Reserved.&nbsp;&nbsp;<a href="www.wh01zc.com">武汉零壹众创信息科技有限公司</a>版权所有</div>
+    </div>
+</div>
+</body>
+</html>

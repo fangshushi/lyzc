@@ -1,0 +1,514 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>零壹众创首页</title>
+<link rel="stylesheet" type="text/css" href="style/common.css">
+<link rel="stylesheet" type="text/css" href="style/main.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.banner.revolution.min.js"></script>
+<script src="js/thumbnail.js"></script>
+<script src="js/banner.js"></script>
+<script src="js/modernizr.custom.97074.js"></script>
+<script>
+$(function () {
+	var navLi=$(".menu .nav li");
+	navLi.mouseover(function () {
+		$(this).find("a").addClass("current");
+		$(this).find(".box").stop().show();
+	})
+	navLi.mouseleave(function(){
+		$(this).find("a").removeClass("current");
+		$(this).find(".box").stop().hide();
+	})
+})
+</script>
+</head>
+
+<body>
+<!-- header -->
+<div class="header">
+	<div class="logo"><img src="images/index/logo.png" /></div>
+    <div class="menu">
+    	<ul class="nav">
+        	<li><a href="#">网站首页</a></li>
+            <li><a href="#">零壹动态</a></li>
+            <li><a href="#">服务项目</a>
+            	<div class="box">
+                	<a href="#">Android开发</a>
+                    <a href="#">IOS开发</a>
+                    <a href="#">网站建设</a>
+                    <a href="#">IT人才培养</a>
+                </div>
+            </li>
+            <li><a href="#">成功案例</a>
+            	<div class="box moveleft">
+                	<a href="#">Android开发</a>
+                    <a href="#">IOS开发</a>
+                    <a href="#">网站建设</a>
+                    <a href="#">IT人才培养</a>
+                </div>
+            </li>
+            <li><a href="#">人才合作</a>
+            	<div class="box moveleft2">
+                	<a href="#">Android开发</a>
+                    <a href="#">IOS开发</a>
+                    <a href="#">网站建设</a>
+                    <a href="#">IT人才培养</a>
+                </div>
+            </li>
+            <li><a href="#">关于公司</a>
+            	<div class="box moveleft3">
+                	<a href="#">Android开发</a>
+                    <a href="#">IOS开发</a>
+                    <a href="#">网站建设</a>
+                    <a href="#">IT人才培养</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="contact_icon">
+    	<a href="#"><span><i class="fa fa-weibo"></i></span></a>
+        <a href="#"><span><i class="fa fa-weixin"></i></span></a>
+        <a href="#"><span class="nomargin"><i class="fa fa-phone"></i></span></a>
+    </div>
+</div>
+<div class="clearfix"></div>
+<!-- banner -->
+<div id="wrapper" class="banner">
+	<div class="fullwidthbanner-container">
+		<div class="fullwidthbanner">
+			<ul>
+				<li data-transition="3dcurtain-horizontal" data-slotamount="15" data-masterspeed="300" data-link="#">
+					<img src="images/index/slide1.jpg" width="1920" height="506" alt=""/>  									
+				</li>
+				<li data-transition="3dcurtain-vertical" data-slotamount="15" data-masterspeed="300" data-link="#">
+					<img src="images/index/slide2.jpg" width="1920" height="506" alt=""/> 
+				</li>
+				<li data-transition="papercut" data-slotamount="15" data-masterspeed="300" data-link="#">
+					<img src="images/index/slide3.jpg" width="1920" height="506" alt=""/> 
+				</li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+<div class="clearfix"></div>
+<!-- range -->
+<section class="range">
+	<div class="mobile fl">
+    	<img src="images/index/app.png"/>
+        <p>移动应用</p>
+        <p>顶尖课程体系、三个阶段目标式学习、顶级师资团队手把手。</p>
+    </div>
+    <div class="web fl">
+    	<img src="images/index/web.png"/>
+        <p>网站建设</p>
+        <p>顶尖课程体系、三个阶段目标式学习、顶级师资团队手把手。</p>
+    </div>
+    <div class="software fl">
+    	<img src="images/index/software.png"/>
+        <p>软件开发</p>
+        <p>顶尖课程体系、三个阶段目标式学习、顶级师资团队手把手。</p>
+    </div>
+    <div class="new_media fl">
+    	<img src="images/index/media.png"/>
+        <p>新媒体</p>
+        <p>顶尖课程体系、三个阶段目标式学习、顶级师资团队手把手。</p>
+    </div>
+    <div class="html_5 fl">
+    	<img src="images/index/html5.png"/>
+        <p>HTML5游戏开发</p>
+        <p>顶尖课程体系、三个阶段目标式学习、顶级师资团队手把手。</p>
+    </div>
+</section>
+<div class="clearfix"></div>
+<!-- profile -->
+<section class="Profile">
+	<div class="left">
+    	<img src="images/index/info.jpg" />
+        <div class="mask">
+        	<img src="images/index/list.png"/>
+            <hr class="line" align="left"/>
+            <p class="title">公司简介</p>
+            <p class="english">Company Profile</p>
+        </div>
+    </div>
+    <div class="right">
+    	<p class="title">武汉零壹众创信息科技有限公司</p>
+        <div class="separate">
+        	<div class="square"></div><div class="line"></div>
+        </div>
+        <p class="content">零壹众创坚持“关注、尊重、发展、提升”的人才价值观，坚持“以人为本”的企业文化，聚焦移动通讯行业，培养饼汇集了一大批在移动及web技术领域拥有资深研发经验的优秀骨干及管理人员，并一直在只能移动设备的系统平台、融合通信、应用软件，以及移动互联网等领域精耕细作。</p>
+        <p class="content">零凭借在IT领域丰富的经验以及对现代市场的敏锐感知，融合大数据、云计算、SaaS、移动互联网等先进技术，打造出一系列以客户为重心的电商系统及解决方案、移动支付解决方案、社区O2O电商解决方案、本地生活类电商解决方案、厂商及分销类电商解决方案，为全球客户提供移动软件生命周期的解决方案，涵盖咨询、设计、开发、测试和技术支持环节，提供给予Adroid平台的智能手机、平板电脑和数据通信终端等解决方案。</p>
+        <p class="content">在传统领域提供传统的技术服务基础上，我们将加大步伐向价值链高端爬升。</p>
+    </div>
+</section>
+<div class="clearfix"></div>
+<!-- case -->
+<section class="case">
+	<div class="case_content">
+        <p class="title">成功案例</p>
+        <div class="bluesquare"></div>
+        <hr class="line2"/>
+        <p>Success Case</p>
+    </div>
+    <div class="caselist">
+        <ul id="da-thumbs" class="da-thumbs">
+            <li>
+                <a href="#">
+                    <img src="images/index/case1.jpg" />
+                    <div>
+                    	<p>吃趣</p>
+                        <p>很会吃”是广州很会吃网络科技有限公司旗下的手机软件。很会吃是一个专注...</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/index/case2.jpg" />
+                    <div>
+                    	<p>吃趣</p>
+                        <p>很会吃”是广州很会吃网络科技有限公司旗下的手机软件。很会吃是一个专注...</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/index/case3.jpg" />
+                    <div>
+                    	<p>吃趣</p>
+                        <p>很会吃”是广州很会吃网络科技有限公司旗下的手机软件。很会吃是一个专注...</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/index/case4.jpg" />
+                    <div>
+                    	<p>吃趣</p>
+                        <p>很会吃”是广州很会吃网络科技有限公司旗下的手机软件。很会吃是一个专注...</p>
+                    </div>
+                </a>
+            </li>
+            <li>	
+                <a href="#">
+                    <img src="images/index/case3.jpg" />
+                    <div>
+                    	<p>吃趣</p>
+                        <p>很会吃”是广州很会吃网络科技有限公司旗下的手机软件。很会吃是一个专注...</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/index/case4.jpg" />
+                    <div>
+                    	<p>吃趣</p>
+                        <p>很会吃”是广州很会吃网络科技有限公司旗下的手机软件。很会吃是一个专注...</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/index/case1.jpg" />
+                    <div>
+                    	<p>吃趣</p>
+                        <p>很会吃”是广州很会吃网络科技有限公司旗下的手机软件。很会吃是一个专注...</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/index/case2.jpg" />
+                    <div>
+                    	<p>吃趣</p>
+                        <p>很会吃”是广州很会吃网络科技有限公司旗下的手机软件。很会吃是一个专注...</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+		<script type="text/javascript" src="js/jquery.hoverdir.js"></script>	
+		<script type="text/javascript">
+			$(function() {
+				$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
+			});
+		</script>
+    </div>
+</section>
+<div class="clearfix"></div>
+<!-- slogan -->
+<section class="slogan">
+	<div class="s_border">
+    	<div class="small_border"></div>
+    </div>
+	<div class="content">
+    	<img src="images/index/sloganwz.png"/>
+        <img src="images/index/english.png"/>
+		<!--文字版开始-->
+        <!--    
+        <p>助力企业品牌互联网商业价值</p>
+        <p>MOBILE TERMINAL & APP</p>
+        -->
+        <!--文字版结束-->
+        <p>多终端网络触点 让您的品牌触手可及</p>
+        <p>传传递品牌调性传递，注重交互体验设计，功能应用开发，营销活动转化等定制服务
+最大化传递目标价值</p>
+    </div>
+</section>
+<div class="clearfix"></div>
+<!--hrs-->
+<section class="hrs">
+	<div class="hrs_content">
+        <p class="title">人力资源</p>
+        <div class="bluesquare"></div>
+        <hr class="line2"/>
+        <p>Human Resources</p>
+    </div>
+    <div class="hrs_list">
+        <div class="hr_item">
+            <div class="introduce">
+                <p>定向培养</p>
+                <p>Directed Translation</p>
+            </div>
+            <div class="hr_pic">
+                <img src="images/index/hr1.jpg"/>
+                <div class="click">
+                	<p>介绍文字</p>
+                </div>
+            </div>
+        </div>                  
+        <div class="hr_item">
+            <div class="introduce">
+                <p>月度招聘</p>
+                <p>Monthly Recruitment</p>
+            </div>
+            <div class="hr_pic">
+                <img src="images/index/hr2.jpg"/>
+                <div class="click">
+                	<p>介绍文字</p>
+                </div>
+            </div>
+        </div> 
+        <div class="hr_item">
+            <div class="introduce">
+                <p>集中招聘</p>
+                <p>Focus on Recruitment</p>
+            </div>
+            <div class="hr_pic">
+                <img src="images/index/hr3.jpg"/>
+                <div class="click">
+                	<p>介绍文字</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="clearfix"></div>
+<!--base-->
+<section class="base">
+	<div class="base_content">
+        <p class="title">人才基地实景</p>
+        <div class="bluesquare"></div>
+        <hr class="line2"/>
+        <p>Talent Base Real</p>
+    </div>
+    <div class="base_list">
+        <div class="content">
+          <a href="#" class="pic" target="_blank">
+           <img src="images/index/base1.jpg"/>
+          </a>
+          <div class="tit">
+             <span>图片名称</span>
+             <em>&nbsp;</em>
+          </div>
+        </div>
+        <div class="content">
+          <a href="#" class="pic" target="_blank">
+           <img src="images/index/base2.jpg"/>
+          </a>
+          <div class="tit">
+             <span>图片名称</span>
+             <em>&nbsp;</em>
+          </div>
+        </div>
+        <div class="content">
+          <a href="#" class="pic" target="_blank">
+           <img src="images/index/base3.jpg"/>
+          </a>
+          <div class="tit">
+             <span>图片名称</span>
+             <em>&nbsp;</em>
+          </div>
+        </div>
+        <div class="content">
+          <a href="#" class="pic" target="_blank">
+           <img src="images/index/base4.jpg"/>
+          </a>
+          <div class="tit">
+             <span>图片名称</span>
+             <em>&nbsp;</em>
+          </div>
+        </div>         
+    </div>
+</section>
+<div class="clearfix"></div>
+<!--other-->
+<section class="other">
+	<div class="news content">
+    	<div class="title">
+        	<div class="line">
+            	<span class="topline"></span>
+                <span class="downline"></span>
+            </div>
+        	<p>零壹动态<span>Zerone News</span></p>
+        </div>
+        <div class="firstone">
+        	<div class="left"><a href="#"><img src="images/index/news.jpg"/></a></div>
+            <div class="right">
+            	<a href="#"><p>贾跃亭在为乐视辩驳时的五个矛盾</p></a>
+            	<a href="#"><p>据了解，当自媒体迅速崛起，以电视、广播和纸媒为途径的传统传播模式，已经遇到了成长...</p></a>
+            </div>
+        </div>
+        <ul class="newsul">
+        	<li><a href="#">从雷军说乐视欠款超150亿元</a></li>
+            <li><a href="#">超级乐视，没边儿的故事，真实的瓶颈</a></li>
+            <li><a href="#">留给中国互联网金融上半场的时间已经不多了</a></li>
+            <li><a href="#">FBI这封邮件很可能改变全球经济市场</a></li>
+        </ul>
+    </div>
+	<div class="team content">
+    	<div class="title">
+        	<div class="line">
+            	<span class="topline"></span>
+                <span class="downline"></span>
+            </div>
+        	<p>工作团队<span>Team</span></p>
+        </div>
+        <div class="peoplelist">
+            <div class="list_one">
+                <div class="pic">
+                    <img src="images/index/team1.jpg"/>
+                    <div class='caption'>
+                        <p class='captionInside'>姓名</p>
+                        <p class='captionInside'>职位</p>
+                    </div>
+                </div>
+            </div>
+            <div class="list_one">
+                <div class="pic">
+                    <img src="images/index/team2.jpg"/>
+                    <div class='caption'>
+                        <p class='captionInside'>姓名</p>
+                        <p class='captionInside'>职位</p>
+                    </div>
+                </div>
+            </div>
+            <div class="list_one">
+                <div class="pic">
+                    <img src="images/index/team3.jpg"/>
+                    <div class='caption'>
+                        <p class='captionInside'>姓名</p>
+                        <p class='captionInside'>职位</p>
+                    </div>
+                </div>
+            </div>
+            <div class="list_one">
+                <div class="pic">
+                    <img src="images/index/team4.jpg"/>
+                    <div class='caption'>
+                        <p class='captionInside'>姓名</p>
+                        <p class='captionInside'>职位</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="reviews content">
+    	<div class="title">
+        	<div class="line">
+            	<span class="topline"></span>
+                <span class="downline"></span>
+            </div>
+        	<p>客户评论<span>Customer Reviews</span></p>
+        </div>
+        <div class="customerlist">
+        	<div class="customer_one">
+            	<div class="left"><img src="images/index/customer.jpg"/></div>
+                <div class="right">
+                相比之下会贵点……但是技术、服务和设计都比较好
+以前被一些小公司忽悠过，这个行业只有错买的没有错卖的，一分钱一分货啊！
+				</div>
+            </div>
+        	<div class="customer_one">
+            	<div class="left"><img src="images/index/customer.jpg"/></div>
+                <div class="right">
+                相比之下会贵点……但是技术、服务和设计都比较好
+以前被一些小公司忽悠过，这个行业只有错买的没有错卖的，一分钱一分货啊！
+				</div>
+            </div>
+        	<div class="customer_one">
+            	<div class="left"><img src="images/index/customer.jpg"/></div>
+                <div class="right">
+                相比之下会贵点……但是技术、服务和设计都比较好
+以前被一些小公司忽悠过，这个行业只有错买的没有错卖的，一分钱一分货啊！
+				</div>
+            </div>
+        </div>
+    </div> 
+</section>
+<div class="clearfix"></div>
+<!-- footer -->
+<div class="footer">
+    <div class="Project_list">
+        <div class="left">
+            <dl>
+                <dt>企业新闻</dt>
+                <dd><a href="#">公司新闻</a></dd>
+                <dd><a href="#">产品新闻</a></dd>
+                <dd><a href="#">行业动态</a></dd>
+            </dl>
+            <dl>
+                <dt>作品展示</dt>
+                <dd><a href="#">APP开发</a></dd>
+                <dd><a href="#">网站建设</a></dd>
+                <dd><a href="#">微信搭建</a></dd>
+            </dl>
+            <dl>
+                <dt>服务项目</dt>
+                <dd><a href="#">Android开发</a></dd>
+                <dd><a href="#">IOS开发</a></dd>
+                <dd><a href="#">网站建设</a></dd>
+            </dl>
+            <dl>
+                <dt>关于我们</dt>
+                <dd><a href="#">公司简介</a></dd>
+                <dd><a href="#">旗下品牌</a></dd>
+                <dd><a href="#">联系我们</a></dd>
+            </dl>
+        </div>
+        <div class="right">
+        	<dl>
+                <dt>二维码</dt>
+                <dd><img src="images/index/ewm.jpg" width="95" height="95"/></dd>
+            </dl>
+        </div>
+    
+    </div>  
+    <div class="friendlink">
+    	<div class="content">
+        	<span class="c_line"></span>
+            <p>友情链接</p>
+            <div class="linklist">
+                <a href="#" target="_blank">链接一</a>
+                <a href="#" target="_blank">链接二</a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+    	<div class="content">Copyright &copy; 2016 <a href="www.wh01zc.com">www.wh01zc.com</a> All Rights Reserved.&nbsp;&nbsp;<a href="www.wh01zc.com">武汉零壹众创信息科技有限公司</a>版权所有</div>
+    </div>
+</div>
+</body>
+</html>
